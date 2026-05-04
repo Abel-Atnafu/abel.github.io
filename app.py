@@ -100,11 +100,13 @@ def chat():
     )
 
     try:
+        # Pass a snapshot so the mutable list can be extended afterward
+        # without corrupting what was actually sent to the API.
         response = client.messages.create(
             model=MODEL,
             max_tokens=MAX_TOKENS,
             system=system_prompt,
-            messages=history,
+            messages=list(history),
         )
         bot_reply = response.content[0].text
 
