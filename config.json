@@ -1,0 +1,19 @@
+{
+  "company_name": "Acme Corp",
+  "tagline": "Your trusted partner for everything",
+  "primary_color": "#6C63FF",
+  "secondary_color": "#FF6584",
+  "accent_color": "#43E97B",
+  "logo_url": "",
+  "favicon_url": "",
+  "chat_placeholder": "Ask me anything about Acme Corp...",
+  "welcome_message": "Hi! I'm the Acme Corp assistant. How can I help you today?",
+  "bot_name": "Acme Assistant",
+  "business_context": "You are a helpful assistant for Acme Corp, a company that provides high-quality products and exceptional customer service.\n\nKEY FACTS:\n- Founded 2010, headquartered in New York City\n- Product categories: Electronics, Home Goods, Apparel\n- Business hours: Monday–Friday 9 am–6 pm EST\n- Customer support: support@acmecorp.com | (555) 123-4567\n- Return policy: 30-day hassle-free returns\n- Shipping: Free on orders over $50, otherwise $5.99 flat rate\n- Loyalty program: Earn 1 point per $1 spent; 100 points = $5 off\n\nIf you don't know an answer, direct the user to contact support rather than guessing.",
+  "contact_form": {
+    "enabled": true,
+    "title": "Get in Touch",
+    "subtitle": "Fill out the form and we'll get back to you within 24 hours.",
+    "recipient_name": "Acme Corp Team"
+  }
+}
