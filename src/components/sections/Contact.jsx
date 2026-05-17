@@ -4,8 +4,8 @@ import SectionHeader from '../ui/SectionHeader'
 import ScrollReveal from '../ui/ScrollReveal'
 
 const EMAILJS_SERVICE_ID  = 'service_pu8ydyl'
-const EMAILJS_TEMPLATE_ID = 'template_xxxxxxx'  // TODO: replace with your EmailJS template ID
-const EMAILJS_PUBLIC_KEY  = 'your_public_key'    // TODO: replace with your EmailJS public key
+const EMAILJS_TEMPLATE_ID = 'template_spgym0c'
+const EMAILJS_PUBLIC_KEY  = 'vau7Jm-xFw6x7LXi5'
 
 const EMAIL = 'abelatnafu.g@gmail.com'
 const WHATSAPP = 'https://wa.me/251XXXXXXXXXX'   // TODO: replace with your number
