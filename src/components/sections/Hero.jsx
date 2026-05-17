@@ -169,7 +169,7 @@ export default function Hero() {
             {[
               { href: 'https://github.com/Abel-Atnafu', icon: <GithubIcon />, label: 'GitHub' },
               { href: 'https://linkedin.com/in/abel-atnafu', icon: <LinkedinIcon />, label: 'LinkedIn' },
-              { href: 'https://wa.me/251XXXXXXXXXX', icon: <WhatsAppIcon />, label: 'WhatsApp' },
+              { href: 'https://wa.me/251979272130', icon: <WhatsAppIcon />, label: 'WhatsApp' },
             ].map(({ href, icon, label }) => (
               <a
                 key={label}
