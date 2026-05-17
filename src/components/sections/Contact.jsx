@@ -120,7 +120,7 @@ export default function Contact({ showToast }) {
               <div style={{ display: 'flex', flexDirection: 'column', gap: '10px' }}>
                 <p style={{ fontSize: '11px', fontWeight: 700, letterSpacing: '1.5px', textTransform: 'uppercase', color: '#555', marginBottom: '4px' }}>Find me on</p>
                 <InfoLink href="https://github.com/Abel-Atnafu" label="GitHub" />
-                <InfoLink href="https://linkedin.com/in/abel-atnafu" label="LinkedIn" />
+                <InfoLink href="https://www.linkedin.com/in/abel-atnafu-2a5918328" label="LinkedIn" />
                 <InfoLink href={WHATSAPP} label="WhatsApp" />
               </div>
             </div>

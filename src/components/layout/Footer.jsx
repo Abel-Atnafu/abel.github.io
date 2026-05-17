@@ -26,7 +26,7 @@ export default function Footer() {
         <div style={{ display: 'flex', gap: '20px' }}>
           {[
             { label: 'GitHub', href: 'https://github.com/Abel-Atnafu' },
-            { label: 'LinkedIn', href: 'https://linkedin.com/in/abel-atnafu' },
+            { label: 'LinkedIn', href: 'https://www.linkedin.com/in/abel-atnafu-2a5918328' },
             { label: 'Email', href: 'mailto:abelatnafu.g@gmail.com' },
           ].map(({ label, href }) => (
             <a
