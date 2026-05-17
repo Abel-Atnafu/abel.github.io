@@ -27,7 +27,7 @@ export default function Footer() {
           {[
             { label: 'GitHub', href: 'https://github.com/Abel-Atnafu' },
             { label: 'LinkedIn', href: 'https://linkedin.com/in/abel-atnafu' },
-            { label: 'Email', href: 'mailto:abelatnafu7@gmail.com' },
+            { label: 'Email', href: 'mailto:abelatnafu.g@gmail.com' },
           ].map(({ label, href }) => (
             <a
               key={label}

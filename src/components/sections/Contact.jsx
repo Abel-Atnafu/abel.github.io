@@ -3,11 +3,12 @@ import emailjs from '@emailjs/browser'
 import SectionHeader from '../ui/SectionHeader'
 import ScrollReveal from '../ui/ScrollReveal'
 
-const EMAILJS_SERVICE_ID  = 'service_xxxxxxx'
-const EMAILJS_TEMPLATE_ID = 'template_xxxxxxx'
-const EMAILJS_PUBLIC_KEY  = 'your_public_key'
+const EMAILJS_SERVICE_ID  = 'service_pu8ydyl'
+const EMAILJS_TEMPLATE_ID = 'template_xxxxxxx'  // TODO: replace with your EmailJS template ID
+const EMAILJS_PUBLIC_KEY  = 'your_public_key'    // TODO: replace with your EmailJS public key
 
-const EMAIL = 'abelatnafu7@gmail.com'
+const EMAIL = 'abelatnafu.g@gmail.com'
+const WHATSAPP = 'https://wa.me/251XXXXXXXXXX'   // TODO: replace with your number
 
 function CopyIcon() {
   return (
@@ -120,8 +121,7 @@ export default function Contact({ showToast }) {
                 <p style={{ fontSize: '11px', fontWeight: 700, letterSpacing: '1.5px', textTransform: 'uppercase', color: '#555', marginBottom: '4px' }}>Find me on</p>
                 <InfoLink href="https://github.com/Abel-Atnafu" label="GitHub" />
                 <InfoLink href="https://linkedin.com/in/abel-atnafu" label="LinkedIn" />
-                <InfoLink href="https://www.upwork.com/freelancers/abelatnafu" label="Upwork" />
-                <InfoLink href="https://www.fiverr.com/abelatnafu" label="Fiverr" />
+                <InfoLink href={WHATSAPP} label="WhatsApp" />
               </div>
             </div>
           </ScrollReveal>
